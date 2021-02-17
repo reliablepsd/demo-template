@@ -1,0 +1,63 @@
+:root {
+	--base-main-font:$base-main-font;
+	--base-font-sans-serif:"Arial", sans-serif;
+	--base-font-serif:"Times New Roman", "Times", "Baskerville", "Georgia", serif;
+	--base-font:var(--base-main-font), var(--base-font-sans-serif);
+	--accent-font:var(--base-font-sans-serif);
+	--rem-base:10px;
+	--font-size-base:2rem;
+	--line-height-base:1.6;
+	--vertical-rhythm:calc(var(--line-height-base) * 1em);
+	--color-brand:#fbd0c0;
+	--color-brand-dark:#f69a78;
+	--color-brand-light:white;
+	--color-brand-d:rgb(268, 163, 130);
+	--color-brand-gray:rgb(52, 62, 81);
+	--color-brand-black:#1a1f28;
+	--secondary-color:#2b2e38;
+	--base-text-color:#343e51;
+	--base-link-color:#f26530;
+	--h1-h6-color:inherit;
+	--animation-link-duration:.3s;
+	--animation-timing-function:ease;
+	--input-x:30px;
+	--gutter:20px;
+	--h1:5rem;
+	--h2:2.8rem;
+	--h3:20px;
+	--h4:18px;
+	--h5:17px;
+	--h6:16px;
+	--btn-y:13px;
+	--btn-x:30px;
+	--btn-b:2px;
+	--btn-r:0px;
+	--btn-fz:16px;
+}
+
+@media (min-width:812px) and (max-height:414px) and (orientation:landscape) {
+	:root {
+		--gutter:50px;
+	}
+}
+
+@media (max-width:768px) {
+	:root {
+		--h1:30px;
+		--h2:23px;
+		--h3:19px;
+		--h4:17px;
+		--h5:16px;
+		--h6:16px;
+	}
+}
+
+@media (max-width:667px) {
+	:root {
+		--btn-y:10px;
+		--btn-x:20px;
+		--btn-b:2px;
+		--btn-r:0px;
+		--btn-fz:16px;
+	}
+}
